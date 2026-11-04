@@ -1,0 +1,18 @@
+{
+    "project": "Shopping Mall Customer Segmentation",
+    "algorithm": "K-Means Clustering",
+    "optimal_k": 3,
+    "total_customers": 4681,
+    "cluster_sizes": {
+        "Cluster 0": 1010,
+        "Cluster 1": 2100,
+        "Cluster 2": 1571
+    },
+    "silhouette_score": 0.2075,
+    "pca_variance_explained": 0.58666,
+    "personas": {
+        "Cluster 0": "Premium High-Spending Customers",
+        "Cluster 1": "Young Frequent Shoppers",
+        "Cluster 2": "Budget-Conscious Occasional Shoppers"
+    }
+}
