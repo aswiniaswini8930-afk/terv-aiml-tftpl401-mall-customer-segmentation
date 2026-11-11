@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 # Load trained model and scaler
-model = joblib.load("models/kmeans_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
+model = joblib.load("Shopping_Mall_Customer_Segmentation1/models/kmeans_model.pkl")
+scaler = joblib.load("Shopping_Mall_Customer_Segmentation1/models/scaler.pkl")
 
 st.set_page_config(
     page_title="Shopping Mall Customer Segmentation",
